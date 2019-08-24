@@ -1,5 +1,5 @@
 {
-    "name": "alexaandrov/google2fa-qrcode",
+    "name": "pragmarx/google2fa",
     "description": "QR Code package for Google2FA",
     "keywords": ["authentication", "two factor authentication", "google2fa", "2fa", "QRCode", "qr code"],
     "license": "MIT",
