@@ -1,5 +1,5 @@
 {
-    "name": "pragmarx/google2fa-qrcode",
+    "name": "alexaandrov/google2fa-qrcode",
     "description": "QR Code package for Google2FA",
     "keywords": ["authentication", "two factor authentication", "google2fa", "2fa", "QRCode", "qr code"],
     "license": "MIT",
@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "pragmarx/google2fa": ">=4.0",
+        "php": ">=7.1",
+        "alexandrov/google2fa": ">=4.0",
         "bacon/bacon-qr-code": "~1.0|~2.0"
     },
     "require-dev": {
@@ -23,12 +23,6 @@
         "psr-4": {
             "PragmaRX\\Google2FAQRCode\\": "src/",
             "PragmaRX\\Google2FAQRCode\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "component": "package",
-        "branch-alias": {
-          "dev-master": "1.0-dev"
         }
     },
     "minimum-stability": "dev",
